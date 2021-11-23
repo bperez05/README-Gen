@@ -1,4 +1,4 @@
-# Readme GEN
+# README_gen
 
   ## Table of Contents
   - [Description](#description)
@@ -8,32 +8,34 @@
   - [Questions](#questions)
   - [Contributors](#contributors)
   - [License](#license)
+  - [Repository](#repository)
   
   ## title
-  Readme GEN
+  README_gen
 
   ## Description 
-  Genorates read me files
+  Creates Readme.d files for repos
   
   ## Installation
-  npm i and node index.js
+  npm i / node index.js
   
   ## Usage
-  To Genorate read me files
+  to create read me files
   
   ## Test-Instructions
-  npm i
+  N/a
   
   ## Questions
   Github: bperez05
   E-mail: perez.brandon55@yahoo.com
   
   ## Contributors
-  me
+  Brando
   
   ## License
+  
 
   ## Repository Link
-  
+  https://github.com/bperez05/README-Gen.git
   
 

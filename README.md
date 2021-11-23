@@ -60,7 +60,8 @@ node index.js
 
 ### **Links**
 
-[Link to the deployed website](
+[Link to the deployed website](https://watch.screencastify.com/v/r0PwWochSNwsEoN3Xnug)
+[Screenshot Link] (https://drive.google.com/file/d/1SnCV9RF8w3YyLfxEteC0b0trx2nc72Gh/view?usp=sharing)
 
 [Link to the code repository] (https://github.com/bperez05/README-Gen.git)
 
