@@ -1,5 +1,5 @@
 #README_gen
-Welcome to my ridiculously README generator!
+Welcome to my  README generator!
 
 
 ## Description

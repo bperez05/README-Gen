@@ -30,7 +30,7 @@
   E-mail: perez.brandon55@yahoo.com
   
   ## Contributors
-  Brando
+  Brandon
   
   ## License
   
