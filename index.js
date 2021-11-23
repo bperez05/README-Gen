@@ -5,7 +5,7 @@ const fs = require('fs');
 
 
 // TODO: Create an array of questions for user input
-const questions = {function promptUser(){
+const questions = () => {
     inquirer.prompt([
 
         {
@@ -33,10 +33,11 @@ const questions = {function promptUser(){
             name:'licenseSelec',
             message:'Please select the license you would like to use with up and down arrows.',
             choices: [
-            'GPL General Public License', 
-            'Apache License', 
-            'MIT License'
+                'GPL General Public License', 
+                'Apache License', 
+                'MIT License',
             ]
+            
         },
         {
             type: 'input',
@@ -69,17 +70,14 @@ const questions = {function promptUser(){
 };
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    fs.writeToFile('.output/README.md'/generateMarkdown(data));
-}
-function writeToFile(fileName, license) {
-    fs.writeToFile('.output/README.md'/generateMarkdown(license));
+function writeToFile(data) {
+    fs.writeToFile('./output/README.md', generateMarkdown(data))
 };
 
 
 
 // TODO: Create a function to initialize app
-function init = () => {
+const init = () => {
     questions()
         .then((data) => writeToFile(data))
         //.then(() => console.log('success'))
