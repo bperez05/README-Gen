@@ -2,7 +2,7 @@
 const inquirer = require('inquirer');
 const {generateMarkdown} = require('./utils/generateMarkdown');
 const fs = require('fs');
-const shell = require('shell.js');
+
 
 // TODO: Create an array of questions for user input
 const questions = {function promptUser(){
@@ -30,11 +30,13 @@ const questions = {function promptUser(){
         },
         {
             type: 'list',
-            name:'license',
-            message:'Please select the license you would like to use.',
-            choices: ['MIT License', 
+            name:'licenseSelec',
+            message:'Please select the license you would like to use with up and down arrows.',
+            choices: [
+            'GPL General Public License', 
             'Apache License', 
-            'GPL General Public License']
+            'MIT License'
+            ]
         },
         {
             type: 'input',
@@ -68,8 +70,13 @@ const questions = {function promptUser(){
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeToFile('./README.md'/ generateMarkdown(info));
+    fs.writeToFile('.output/README.md'/generateMarkdown(data));
 }
+function writeToFile(fileName, license) {
+    fs.writeToFile('.output/README.md'/generateMarkdown(license));
+};
+
+
 
 // TODO: Create a function to initialize app
 function init = () => {
