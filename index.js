@@ -1,12 +1,13 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
-const {generateMarkdown} = require('./utils/generateMarkdown');
 const fs = require('fs');
+const {generateMarkdown} = require('./utils/generateMarkdown');
+
 
 
 // TODO: Create an array of questions for user input
 const questions = () => {
-    inquirer.prompt([
+    return inquirer.prompt([
 
         {
             type: 'input',
@@ -65,13 +66,12 @@ const questions = () => {
             message:'What is the link to your GitHub repository?'
         },
 
-    ])
-
+])
 };
 
 // TODO: Create a function to write README file
 function writeToFile(data) {
-    fs.writeToFile('./output/README.md', generateMarkdown(data))
+    fs.writeFileSync('./output/README.md', generateMarkdown(data))
 };
 
 
@@ -86,3 +86,4 @@ const init = () => {
 
 // Function call to initialize app
 init();
+//console.log(answers);
