@@ -1,4 +1,4 @@
-# a
+# Readme GEN
 
   ## Table of Contents
   - [Description](#description)
@@ -10,28 +10,30 @@
   - [License](#license)
   
   ## title
-  a
+  Readme GEN
 
   ## Description 
-  s
+  Genorates read me files
   
   ## Installation
-  a
+  npm i and node index.js
   
   ## Usage
-  s
+  To Genorate read me files
   
   ## Test-Instructions
-  a
+  npm i
   
   ## Questions
-  Github: undefined
-  E-mail: a
+  Github: bperez05
+  E-mail: perez.brandon55@yahoo.com
   
   ## Contributors
-  a
+  me
   
   ## License
+
+  ## Repository Link
   
   
 
