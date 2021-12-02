@@ -1,4 +1,4 @@
-# README_gen
+# ReadMe - Gen!
 
   ## Table of Contents
   - [Description](#description)
@@ -11,26 +11,26 @@
   - [Repository](#repository)
   
   ## title
-  README_gen
+  ReadMe - Gen!
 
   ## Description 
-  Creates Readme.d files for repos
+  Creates README (s)
   
   ## Installation
-  npm i / node index.js
+  npm i > node index.js
   
   ## Usage
-  to create read me files
+  Creates read Me files
   
   ## Test-Instructions
-  N/a
+  n/a
   
   ## Questions
   Github: bperez05
   E-mail: perez.brandon55@yahoo.com
   
   ## Contributors
-  Brandon
+  Me, Myself, and i
   
   ## License
   
