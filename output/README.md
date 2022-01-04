@@ -1,4 +1,4 @@
-# ReadMe - Gen!
+# test
 
   ## Table of Contents
   - [Description](#description)
@@ -11,31 +11,31 @@
   - [Repository](#repository)
   
   ## title
-  ReadMe - Gen!
+  test
 
   ## Description 
-  Creates README (s)
+  test
   
   ## Installation
-  npm i > node index.js
+  test
   
   ## Usage
-  Creates read Me files
+  tes
   
   ## Test-Instructions
-  n/a
+  test
   
   ## Questions
-  Github: bperez05
-  E-mail: perez.brandon55@yahoo.com
+  Github: test
+  E-mail: test
   
   ## Contributors
-  Me, Myself, and i
+  test
   
   ## License
   
 
   ## Repository Link
-  https://github.com/bperez05/README-Gen.git
+  test
   
 
