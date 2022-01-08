@@ -14,28 +14,28 @@
   test
 
   ## Description 
-  test
+  tets
   
   ## Installation
-  test
+  tets
   
   ## Usage
-  test
+  tets
   
   ## Test-Instructions
-  test
+  tets
   
   ## Questions
-  Github: test
-  E-mail: test
+  Github: tets
+  E-mail: tets
   
   ## Contributors
-  ttest
+  tets
   
   ## License
   
 
   ## Repository Link
-  test
+  tets
   
 
