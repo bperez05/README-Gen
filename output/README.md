@@ -20,7 +20,7 @@
   test
   
   ## Usage
-  tes
+  test
   
   ## Test-Instructions
   test
@@ -30,7 +30,7 @@
   E-mail: test
   
   ## Contributors
-  test
+  ttest
   
   ## License
   
